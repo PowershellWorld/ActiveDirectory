@@ -1,15 +1,19 @@
-## Active Directory Scripts
+## Module - PW-TrustedHosts
 
-A repository for Active Directory scripts. 
+Module to add/remove a TrustedHost to TrustedHosts for remote management   	
 
-1. Creating Domain Controllers
-2. Creating OU Structure
-etc etc
+Use: 	<br>																
+Place PSM1 in folder : 	<br>
+<br>
+C:\Program Files\WindowsPowerShell\Modules\<YOURFOLDERNAME>	
 
-### Development
+Import-Module YOURFOLDERNAME				
 
-The development is still going on. 
+New-TrustedHost (FQDN to be trusted) <br><br>
+EXAMPLE:<br>
+<code> New-TrustedHosts Klimrek.Speeltuin.local</code>
 
-### Final scripts
+Remove-TrustedHost (FQDN to be untrusted)	 	 <br><br>
+EXAMPLE:<br>
+<code> Remove-TrustedHost klimrek.speeltuin.local</code>
 
-Once in a while there will be an update and the version number wil change.
