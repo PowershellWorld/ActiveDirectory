@@ -1,18 +1,18 @@
 ################## ADD AND REMOVE TRUSTED HOSTS TO SERVERS #####################
 ####                                                                        ####
 #### Module to add/remove a TrustedHost to TrustedHosts for remote          ####
-#### management   														    ####
-####																		####
-#### Use: 																	####
-####   Place PSM1 in folder : 												####
-####		C:\Program Files\WindowsPowerShell\Modules\<YOURFOLDERNAME>		####
-####																		####
-####   Import-Module <YOURFOLDERNAME>										####
-####																		####
-####   New-TrustedHost <FQDN to be trusted>           						####
-####																		####
-####   Remove-TrustedHost <FQDN to be untrusted>				    	    ####
-####																	    ####
+#### management   							    ####
+####									    ####
+#### Use: 								    ####
+####   Place PSM1 in folder : 						    ####
+####		C:\Program Files\WindowsPowerShell\Modules\<YOURFOLDERNAME> ####
+####									    ####
+####   Import-Module <YOURFOLDERNAME>					    ####
+####									    ####
+####   New-TrustedHost <FQDN to be trusted>           			    ####
+####									    ####
+####   Remove-TrustedHost <FQDN to be untrusted>			    ####
+####								            ####
 ################################################################################
 
 
